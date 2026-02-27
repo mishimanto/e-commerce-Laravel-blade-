@@ -74,17 +74,17 @@ Built using the powerful **Laravel Framework**.
 Follow the steps below to run the project locally.
 
 ```bash
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/mishimanto/e-commerce-Laravel-blade.git
 cd e-commerce-Laravel-blade
 
 
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 composer install
 npm install
 npm run build
 
-### 3️⃣ Environment Setup
+3️⃣ Environment Setup
 .env.example -> .env
 
 DB_DATABASE=gadget_shop
@@ -92,18 +92,18 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 
-### 4️⃣ Generate App Key
+4️⃣ Generate App Key
 php artisan key:generate
 
 
-### 5️⃣ Run Migrations
+5️⃣ Run Migrations
 php artisan migrate
 php artisan db:seed
 
 
-### 6️⃣ Storage Link
+6️⃣ Storage Link
 php artisan storage:link
 
 
-### 7️⃣ Run the Project
+7️⃣ Run the Project
 php artisan serve
