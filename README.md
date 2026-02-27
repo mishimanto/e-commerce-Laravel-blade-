@@ -20,90 +20,49 @@
 
 This project includes:
 
-- Product Management
-- Category & Brand Management
-- Product Variants & Warranty Support
-- Advanced Search System
-- Cart & Checkout
-- Order Management
-- Admin Dashboard
-- Role Based Authentication
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Built using the powerful **Laravel Framework**.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
----
+## Learning Laravel
 
-## 🛠 Tech Stack
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-- Backend: Laravel
-- Frontend: Blade Template Engine
-- Database: MySQL
-- Styling: Tailwind CSS / Custom CSS
-- Authentication: Laravel Auth (Breeze)
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
----
+## Laravel Sponsors
 
-## ✨ Features
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### 👤 Customer Side
+### Premium Partners
 
-- Browse Products
-- Search Products
-- Filter by Category & Brand
-- Product Details (SEO Slug Based)
-- Add to Cart
-- Wishlist
-- Checkout System
-- Order History
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
-### 🛠 Admin Panel
+## Contributing
 
-- Dashboard Overview
-- Manage Categories
-- Manage Brands
-- Manage Products
-- Product Variants
-- Warranty Management
-- Order Management
-- Site Settings
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
----
+## Code of Conduct
 
-## 📦 Installation Guide
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-Follow the steps below to run the project locally.
+## Security Vulnerabilities
 
-```bash
-### 1️⃣ Clone the Repository
-git clone https://github.com/mishimanto/e-commerce-Laravel-blade.git
-cd e-commerce-Laravel-blade
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
 
-### 2️⃣ Install Dependencies
-composer install
-npm install
-npm run build
-
-### 3️⃣ Environment Setup
-.env.example -> .env
-
-DB_DATABASE=gadget_shop
-DB_USERNAME=root
-DB_PASSWORD=
-
-
-### 4️⃣ Generate App Key
-php artisan key:generate
-
-
-### 5️⃣ Run Migrations
-php artisan migrate
-php artisan db:seed
-
-
-### 6️⃣ Storage Link
-php artisan storage:link
-
-
-### 7️⃣ Run the Project
-php artisan serve
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
