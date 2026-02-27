@@ -73,11 +73,8 @@ Built using the powerful **Laravel Framework**.
 
 Follow the steps below to run the project locally.
 
----
-
 ### 1️⃣ Clone the Repository
-
-
+```bash
 git clone https://github.com/mishimanto/e-commerce-Laravel-blade.git
 cd e-commerce-Laravel-blade
 
