@@ -75,8 +75,6 @@ Follow the steps below to run the project locally.
 
 ---
 
-```bash
-
 ### 1️⃣ Clone the Repository
 
 
